@@ -1,0 +1,25 @@
+body {
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+}
+
+.card-header {
+    background-color: #38b3d0;
+}
+
+.card {
+    border-width: 5px;
+    border-color: #a9e2f5;
+}
+
+.btn {
+    background-color: #a9e2f5;
+}
+
+i {
+    font-size: 100px;
+}
+
+.table {
+    background-color: #a9e2f5;
+}

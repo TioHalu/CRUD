@@ -3,7 +3,7 @@
 $server = "localhost";
 $user = "root";
 $password = '';
-$dbName = "posyandu";
+$dbName = "admin";
 
 $connect = mysqli_connect($server, $user, $password, $dbName) or die ('Gagal terkoneksi ke server '.$server);
 
@@ -41,16 +41,20 @@ function template_header($title)
     <body>
         <div class="container">
             <!-- As a heading -->
-            <nav class="navbar navbar-light bg-light ">
+            <nav class="navbar navbar-light ">
                 <div class="container-fluid">
+                <a href="dashboard.php" id="brand">
                     <span class="navbar-brand mb-0 h1">Posyandu</span>
+                </a>
                 </div>
             </nav>
+            
     EOT;
 }
 
 function template_footer() 
 {
+    
     echo <<<EOT
         </div>
         <!-- Optional JavaScript; choose one of the two! -->

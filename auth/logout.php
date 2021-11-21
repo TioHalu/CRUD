@@ -1,5 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header("Location: http://localhost/posyandu");
+header("location: ../index.php");
 ?>

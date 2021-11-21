@@ -14,6 +14,7 @@ In htdocts folder open the terminal/cmd and then run :
 ```bash
   git clone https://github.com/TioHalu/CRUD.git
   cd CRUD
+  git checkout master
 ```
 
 Then, import files posyandu.sql in the db folder to your phpmyadmin

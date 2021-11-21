@@ -25,4 +25,4 @@ Then, import files posyandu.sql in the db folder to your phpmyadmin
 
 ## Screenshots ERD DB
 
-![alt text](https://github.com/TioHalu/CRUD/blob/master/erd.jpg?raw=true)
+![alt text](https://github.com/TioHalu/CRUD/blob/master/erd.png?raw=true)

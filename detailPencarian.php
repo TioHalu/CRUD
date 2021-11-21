@@ -1,7 +1,7 @@
 <?php include 'auth/function.php';
 session_start();
     if (empty($_SESSION['loggedin']) && $_SESSION['loggedin'] == false) {
-        header("Location: http://localhost/posyandu/index.php");
+        header("Location: index.php");
     }
 ?>
 

@@ -11,7 +11,7 @@ session_start();
             $row = mysqli_fetch_assoc($result);
                 $_SESSION['loggedin'] = true;
                 $_SESSION['username'] = $username;
-                header("Location: http://localhost/posyandu/dashboard.php");
+                header("Location: dashboard.php");
         } else {
             $_SESSION['error']=true;
             header("Location: index.php");
